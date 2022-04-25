@@ -1,0 +1,147 @@
+body{
+	 padding: 0px;
+    margin: 0px;
+    height: 100%;
+	background: linear-gradient(#003366,#003366,#202020);
+  overflow-x: hidden;
+}
+html{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+#postuler{
+	z-index: 99;
+	display: flex;
+	justify-content: center;
+	width: 150px;
+	height: 40px;
+	background: linear-gradient(40deg,#202020,#3333FF);
+	border-radius: 20px;
+	color:rgb(204,255,255);
+	font-size: 25px;
+	letter-spacing: 1px;
+	font-weight: 200;
+	border-style: none;
+	color:#FFFFFF;
+	transition: 0.3s;
+}
+
+#postuler:hover{
+	background: linear-gradient(40deg,#202020,#3333FF);
+	width: 180px;
+	height: 60px;
+	border-radius: 40px;
+	font-size: 30px;
+	transition: 1s;
+}
+#container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+}
+.container2{
+	display: flex;
+	justify-content: right;
+	align-items: right;
+
+}
+.accueil{
+	border: none;
+	border-style: none;
+	line-height: 27px;
+	transition: 1s;
+	background-color: transparent;
+	color: white;
+	font-size: 20px;
+
+
+}
+.accueil:hover{
+	font-size: 25px;
+	transition: 0.5s;
+
+}
+.information{
+	border-style: none;
+	border: none;
+	line-height: 27px;
+	transition: 1s;
+	background-color: transparent;
+	color: white;
+	font-size: 20px;
+}
+.information:hover{
+	font-size: 25px;
+	transition: 0.5s;
+
+}
+.connect{
+	background:#003366;
+	z-index: 99;
+	display: flex;
+	justify-content: center;
+	width: 80px;
+	height: 25px;
+	background: linear-gradient(40deg,#202020,#3333FF);
+	border-radius: 5px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	border-style: none;
+	color:#FFFFFF;
+	transition: 0.3s;
+
+}
+.connect:hover{
+	background: linear-gradient(40deg,#FFFFE0,#228B22,#FFFFE0);
+	width: 85px;
+	height: 30px;
+	font-size: 17px;
+	transition: 0.3s;
+}	
+
+.register{
+	z-index: 99;
+	background:#003366;
+	display: flex;
+	justify-content: center;
+	width: 80px;
+	height: 25px;
+	background: linear-gradient(40deg,#202020,#3333FF);
+	border-radius: 5px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	border-style: none;
+	color:#FFFFFF;
+	transition: 0.3s;
+
+}
+
+.register:hover{
+	background: linear-gradient(40deg,#202020,#202020;#228B22);
+	width: 85px;
+	height: 30px;
+	font-size: 17px;
+	transition: 0.3s;
+}
+.contact{
+	display: flex;
+	justify-content: center;
+	width: 80px;
+	height: 25px;
+	background: linear-gradient(40deg,#202020,#3333FF);
+	border-radius: 20px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	border-style: none;
+	color:#FFFFFF
+
+}
+
+.contact:hover{
+	background: linear-gradient(40deg,#202020,#606060);
+	width: 85px;
+	height: 30px;
+	font-size: 16px;
+}
